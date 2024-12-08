@@ -1,7 +1,11 @@
-export default function Home() {
-	return <main>
-		
-	</main>;
-}
+import Banner from "@/components/Banner";
+import Testimonial from "@/components/Testimonials";
 
-//localhost::3000
+export default function Home() {
+	return (
+		<main>
+			<Banner />
+			<Testimonial />
+		</main>
+	);
+}

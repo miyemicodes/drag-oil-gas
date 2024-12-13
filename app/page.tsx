@@ -1,11 +1,11 @@
 import Banner from "@/components/Banner";
-import Testimonial from "@/components/Testimonials";
+import AboutUs from "@/components/AboutUs";
 
 export default function Home() {
 	return (
-		<main>
+		<main className="w-full h-full">
 			<Banner />
-			<Testimonial />
+			<AboutUs/>
 		</main>
 	);
 }

@@ -1,11 +1,13 @@
 import Image from "next/image";
 import gasFlare from "@/public/assets/one-blue-oil-platform.svg";
 
+import Navigation from "@/components/Navigation";
+
 export default function Banner() {
 	return (
 		<>
 			<div className="banner w-full h-[100%]">
-				<div className="bannerContact flex flex-row items-center justify-evenly py-8">
+				<div className="flex flex-row items-center justify-evenly py-8">
 					<div className="flex flex-row items-center justify-center gap-2">
 						<Image
 							src={gasFlare}
@@ -35,7 +37,7 @@ export default function Banner() {
 					</button>
 				</div>
 
-				<div className="bannerDiv w-[40%] h-[500px] flex flex-col items-start justify-center gap-4 ml-20">
+				<div className="w-full md:w-[40%] h-[500px] flex flex-col items-start justify-center gap-4 ml-5 md:ml-20">
 					<p className="text-xs font-semibold ">OUR PROJECT RELEVANCE</p>
 					<h1 className="text-5xl font-semibold">
 						Discover our most successful projects
@@ -46,15 +48,7 @@ export default function Banner() {
 					</p>
 				</div>
 
-				<ul className="bannerNav flex flex-row items-center justify-evenly p-2 ">
-					<li>MAIN PAGE</li>
-					<li>PAGES</li>
-					<li>SERVICES</li>
-					<li>FEATURES</li>
-					<li>OUR BLOGS</li>
-					<li>CONTACTS</li>
-					<button>GET A QUOTE</button>
-				</ul>
+				<Navigation />
 			</div>
 		</>
 	);

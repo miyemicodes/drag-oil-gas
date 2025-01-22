@@ -1,12 +1,14 @@
 import gasFlar from "../public/assets/gas-flaring.svg"
 import thermalPower from "../public/assets/thermal-power-plant.svg"
 import skyscrapper from "../public/assets/skyscrapper.svg"
+import onePump from "../public/assets/one-oil-pump.svg"
+import oilBlue from "../public/assets/one-blue-oil-platform.svg"
 
 
 const OfferAll = [
   {
     id: 1,
-    image: gasFlar,
+    image: oilBlue,
     title: "THERMAL POWER",
     description: "On the offer we discuss with rigorous rickgarden and docile men who are so beguided."
   },
@@ -18,7 +20,7 @@ const OfferAll = [
   },
   {
     id: 3,
-    image: gasFlar,
+    image: onePump,
     title: "GAS FLARING",
     description: "On the offer we discuss with rigorous rickgarden and docile men who are so beguided."
   },

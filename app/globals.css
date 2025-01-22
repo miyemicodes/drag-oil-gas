@@ -7,8 +7,16 @@
 :root {
 	--background: #ffffff;
 }
+
 /*
 .banner{
 	background-image: url();
 }
 */
+
+.Offer {
+	background-image: url(../public/assets/pic1.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	object-fit:cover ;
+}

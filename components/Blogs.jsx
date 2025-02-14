@@ -4,7 +4,7 @@ import { BlogAll } from "./Blog";
 export default function Blogs() {
 	return (
 		<>
-			<div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] items-center gap-5 p-2 w-full md:p-10 m-4 md:m-10 ">
+			<div className="grid grid-cols-1 md:grid-cols-[1fr] lg:grid-cols-[1fr_2fr] items-center gap-5 p-2 w-full md:p-10 m-4 md:m-10 ">
 				<div className="flex flex-col items-start justify-between gap-6">
 					<h2 className="font-bold text-3xl">Our blog</h2>
 					<span className="bg-blue-500 w-[10%] h-1 divide-x-4 rounded-full"></span>

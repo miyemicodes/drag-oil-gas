@@ -16,9 +16,9 @@ export default function Feedback() {
 					</p>
 					<p>
 						We're always interested in new projects,
-						<a className=" underline text-blue-500 ">1 (000) 300 2374</a>
+						<a className=" underline text-blue-500 font-semibold"> 1 (000) 300 2374 </a>
 						or big or small. Please don't hesitate to get
-						<a className=" underline text-blue-500 ">get a quote </a>
+						<a className=" underline text-blue-500 font-semibold"> get a quote </a>
 					</p>
 				</div>
 			</div>

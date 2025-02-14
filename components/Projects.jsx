@@ -6,7 +6,7 @@ import Pic1 from "../public/assets/pic1.png";
 export default function Projects() {
 	return (
 		<>
-			<div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] items-center gap-5 p-2 w-full md:p-10 m-4 md:m-10 ">
+			<div className="grid grid-cols-1 md:grid-cols-[1fr] lg:grid-cols-[1fr_2fr] items-center gap-5 p-2 w-full md:p-10 m-4 md:m-10 ">
 				<div className="flex flex-col items-start justify-start gap-4">
 					<h2 className="font-bold text-3xl">
 						Our projects <span className="text-blue-500">& missions </span>

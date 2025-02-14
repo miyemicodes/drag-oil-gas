@@ -3,6 +3,7 @@ import AboutUs from "@/components/AboutUs";
 import Projects from "@/components/Projects";
 import Offers from "@/components/Offers";
 import Blogs from "@/components/Blogs";
+import Testimonial from "@/components/Testimonials";
 import Feedback from "@/components/Feedback";
 
 export default function Home() {
@@ -13,7 +14,8 @@ export default function Home() {
 			<Projects />
 			<Offers />
 			<Blogs />
-			<Feedback/>
+			<Testimonial />
+			<Feedback />
 		</main>
 	);
 }
